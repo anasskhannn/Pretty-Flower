@@ -56,11 +56,15 @@ There you will get the css code for the same and copy the css code and create a 
 
 For Python 3 and Above
 
-```python -m http.server 8000```
+```
+python -m http.server 8000
+```
 
 
 Using CloudFlared
 
 After installing Cloudflared on your system run this command to create a temporary secure tunnel
 
-``` cloudflared tunnel --url http://localhost:0000 ```
+```
+cloudflared tunnel --url http://localhost:0000
+```
