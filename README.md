@@ -51,3 +51,16 @@ METHOD 2
 ### Online Convertor
 Go to the https://sass-lang.com/playground/ and copy the code form style.scss and paste it in the browser.
 There you will get the css code for the same and copy the css code and create a file name style.css and paste it over there and boom you are good to go
+
+### To Check By Running on other Systems
+
+For Python 3 and Above
+
+```python -m http.server 8000```
+
+
+Using CloudFlared
+
+After installing Cloudflared on your system run this command to create a temporary secure tunnel
+
+``` cloudflared tunnel --url http://localhost:0000 ```
